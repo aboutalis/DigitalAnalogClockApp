@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleDigital.css">
+    <title>Digital&AnalogClock</title>
+</head>
+<body>
+    <header>
+        <!-- Switch Button -->
+        <div class="formBox">
+            <div class="buttonBox">
+                <div id="button"></div>
+                <a href="indexDigital.html">
+                    <button type="button" class="toggleBtn" onclick="Digital()">Digital</button>
+                </a>
+                <a href="indexAnalog.html">
+                    <button type="button" class="toggleBtn" onclick="Analog()">Analog</button>
+                </a>
+            </div>
+        </div>
+
+    </header>
+
+    <h1>Digital Clock</h1>
+
+    <h2>Chania, Greece</h2>
+
+    <div id="date"></div>
+
+    <div class="clock">
+
+        <div>
+            <span id="hours">00</span>
+            <div class="text">Hours</div>
+        </div>
+
+        <div>
+            <span id="min">00</span>
+            <div class="text">Minutes</div>
+        </div>
+
+        <div>
+            <span id="sec">00</span>
+            <div class="text">Seconds</div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; Copyright <span id="currentYear"></span> 
+            <a href="https://aboutalis.github.io/aboutalis/" target="_blank">
+                Anastasios Periklis Boutalis</a>. All rights reserved.</p>
+    </footer>
+    
+    <script src="scriptYear.js"></script>
+    <script src="switchButton.js"></script>
+    <script src="scriptDigital.js"></script>
+
+</body>
+</html>
