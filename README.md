@@ -31,3 +31,16 @@ The project consists of the following files:
 To use the Digital&AnalogClockApp, simply open either the `indexDigital.html` or `indexAnalog.html` file in a web browser. The clock will start displaying the current time, and you can switch between the digital and analog clock display by clicking the respective buttons.
 
 Overall, the Digital&AnalogClockApp combines the power of HTML, CSS, and JavaScript to create a visually appealing and functional clock application. It offers users the convenience of both digital and analog representations of time, allowing them to choose their preferred display style. Whether users prefer the simplicity of digital numbers or the timeless charm of an analog clock, this app provides an engaging and user-friendly experience.
+
+
+### Digital Clock
+<p align="center">
+  <img src="https://github.com/aboutalis/DigitalAnalogClockApp/assets/132292767/9c273dc7-e623-40ff-aa1d-0f3fb376defa" alt="digital">
+</p>
+
+### Analog Clock
+<p align="center">
+  <img src="https://github.com/aboutalis/DigitalAnalogClockApp/assets/132292767/3df82a77-2cf5-4925-8728-ab00143b006f" alt="analog">
+</p>
+
+
